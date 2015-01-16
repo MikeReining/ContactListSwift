@@ -84,7 +84,7 @@ createNewContactWithName("Michelle", email: "michelle@gmail.com", addressBook)
 
 addressBook.contacts.count
 
-
+addressBook.contacts[1].name
 
 
 
