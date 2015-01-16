@@ -14,6 +14,7 @@
 		278AF2651A68798100249455 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278AF2631A68798100249455 /* LaunchScreen.xib */; };
 		278AF2711A68798100249455 /* ContactListSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2701A68798100249455 /* ContactListSwiftTests.swift */; };
 		278AF27B1A687C1000249455 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF27A1A687C1000249455 /* Contact.swift */; };
+		278AF27E1A68CDAB00249455 /* AddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF27D1A68CDAB00249455 /* AddressBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		278AF2701A68798100249455 /* ContactListSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSwiftTests.swift; sourceTree = "<group>"; };
 		278AF27A1A687C1000249455 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		278AF27C1A687CDC00249455 /* ContactList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ContactList.playground; sourceTree = "<group>"; };
+		278AF27D1A68CDAB00249455 /* AddressBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				278AF25A1A68798100249455 /* AppDelegate.swift */,
 				278AF25C1A68798100249455 /* ViewController.swift */,
 				278AF27A1A687C1000249455 /* Contact.swift */,
+				278AF27D1A68CDAB00249455 /* AddressBook.swift */,
 				278AF27C1A687CDC00249455 /* ContactList.playground */,
 				278AF25E1A68798100249455 /* Main.storyboard */,
 				278AF2611A68798100249455 /* Images.xcassets */,
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				278AF27B1A687C1000249455 /* Contact.swift in Sources */,
+				278AF27E1A68CDAB00249455 /* AddressBook.swift in Sources */,
 				278AF25D1A68798100249455 /* ViewController.swift in Sources */,
 				278AF25B1A68798100249455 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				278AF2761A68798100249455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		278AF2771A68798100249455 /* Build configuration list for PBXNativeTarget "ContactListSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				278AF2791A68798100249455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

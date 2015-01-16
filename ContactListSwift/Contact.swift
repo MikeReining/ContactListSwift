@@ -11,10 +11,8 @@ import Foundation
 class Contact {
     var name: String
     var email: String
-    var contacts: [Contact]?
     init (name: String, email: String) {
         self.name = name
         self.email = email
-        contacts?.append(self)
     }
 }
